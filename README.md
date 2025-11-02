@@ -26,13 +26,13 @@ youtube-chatbot-streamlit
 ## Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone <repository-url>
    cd youtube-chatbot-streamlit
    ```
 
 2. Install the required packages:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
@@ -42,16 +42,15 @@ youtube-chatbot-streamlit
 ## Usage
 
 To run the Streamlit application, execute the following command in your terminal:
-```
+```bash
 streamlit run src/streamlit_app.py
 ```
 
-Once the application is running, you can interact with the chatbot by entering your queries related to the YouTube video content.
+After successful run, you should get a webpage like this:
 
-## Contributing
+<img width="1914" height="542" alt="Screenshot 2025-11-02 224413" src="https://github.com/user-attachments/assets/575cf677-2b18-4c42-af67-2fd0929f339e" />
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+After the transcript for the yt video is successfully indexed, you should be able to answer any question to the chatbot related to it:
 
-## License
+<img width="1919" height="724" alt="Screenshot 2025-11-02 224353" src="https://github.com/user-attachments/assets/8d7ed29a-2a4d-4524-a1fb-dfdb32c47414" />
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
